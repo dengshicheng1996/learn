@@ -9,7 +9,7 @@ jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@main
+      - uses: actions/checkout@master
 
       # 安装依赖
       - run: npm ci
